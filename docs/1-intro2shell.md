@@ -1,14 +1,14 @@
-# Supp - 1. UNIX, Linux  & UNIX Shell 
+# 1. UNIX, Linux  & UNIX Shell 
 
 !!! abstract "Lesson Objectives"
 
     - Quick overview on UNIX operating system and it's importance
     - Differences/similarities between UNIX vs. Linux
-    - What is a shell and the importance of UNIX shell/s for Bioinformatics (or for Scientific computing in general)
+    - What is a shell and the importance of UNIX shell/s for Scientific/General computing
     - Types of Shell and intro to Bash Shell (we will be using the latter throughout the workshop)
 
 <center>
-![image](../images/unix_funnel.png){width="350"}
+![image](./images/shell_funnel.png){width="350"}
 </center>
 
 <!--- check -->
@@ -24,7 +24,7 @@ Unix is a generic operating system which takes full advantage of all available h
 
     “Although that philosophy can’t be written down in a single sentence, as its heart is the idea that the power of a system comes more from the relationships among programs than from the programs themselves. Many UNIX programs do quite trivial things in isolation, but, combined with other programs, become general and useful tools.” ***– Brian Kernighan & Rob Pike***
 
-!!! info "The UNIX operating system is made up of three parts; the ^^kernel^^, the ^^shell^^ and the programs"
+!!! circle-info "The UNIX operating system is made up of three parts; the ^^kernel^^, the ^^shell^^ and the programs"
 
     Kernel − The kernel is the heart of the operating system. It interacts with the hardware and most of the tasks like memory management, task scheduling and file management.
 
@@ -32,7 +32,7 @@ Unix is a generic operating system which takes full advantage of all available h
 
     - An ^^*interpreter*^^ operates in a simple loop: It accepts a command, interprets the command, executes the command, and then waits for another command. The shell displays a "prompt," to notify you that it is ready to accept your command.
     <center>
-    ![image](../images/interpreter_loop.png){width="200"}
+    ![image](./images/interpreter_loop.png){width="200"}
     </center>
 
 
@@ -41,7 +41,7 @@ Unix is a generic operating system which takes full advantage of all available h
 
 Linux is not Unix, but it is a "Unix-like" operating system. Linux system is derived from Unix and it is a continuation of the basis of Unix design. Linux distributions are the most famous and healthiest example of the direct Unix derivatives. BSD (Berkley Software Distribution) is also an example of a Unix derivative.
 
-??? "Unix-like & a bit more on Linux"
+??? circle-info "Unix-like & a bit more on Linux"
 
     A Unix-like OS (also called as UN*X or *nix) is the one that works in a way similar to Unix systems, however, it is not necessary that they conform to Single UNIX Specification (SUS) or similar POSIX (Portable Operating System Interface) standard.
 
@@ -54,7 +54,7 @@ Linux is not Unix, but it is a "Unix-like" operating system. Linux system is der
     Linux distribution (also called a **distro**) is an operating system that is created from a collection of software built upon the Linux Kernel and is a package management system. A standard Linux distribution consists of a Linux kernel, GNU system, GNU utilities, libraries, compiler, additional software, documentation, a window system, window manager and a desktop environment. Most of the software included in a Linux distribution is free and open source. They may include some proprietary software like binary blobs which are essential for a few device drivers.
 
 
-## UNIX Shell for Bioinformatics
+## UNIX Shell for Scientific Computing
 
 A shell is a computer program that presents a command line interface which allows you to control your computer using commands entered with a keyboard instead of controlling graphical user interfaces (GUIs) with a mouse/keyboard/touchscreen combination.
 
