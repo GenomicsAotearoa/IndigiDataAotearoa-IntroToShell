@@ -60,11 +60,11 @@ A shell is a computer program that presents a command line interface which allow
 
 There are many reasons to learn about the shell:
 
-* Many bioinformatics tools can only be used through a command line interface. Many more have features and parameter options which are not available in the GUI. BLAST is an example. Many of the advanced functions are only accessible to users who know how to use a shell.
-* The shell makes your work less boring. In bioinformatics you often need to repeat tasks with a large number of files. With the shell, you can automate those repetitive tasks and leave you free to do more exciting things.
+* Many Scientific Computing (SC) tools can only be used through a command line interface. Many more have features and parameter options which are not available in the GUI. BLAST is an example. Many of the advanced functions are only accessible to users who know how to use a shell.
+* The shell makes your work less boring. In SC you often need to repeat tasks with a large number of files. With the shell, you can automate those repetitive tasks and leave you free to do more exciting things.
 * The shell makes your work less error-prone. When humans do the same thing a hundred different times (or even ten times), they’re likely to make a mistake. Your computer can do the same thing a thousand times with no mistakes.
 * The shell makes your work more reproducible. When you carry out your work in the command-line (rather than a GUI), your computer keeps a record of every step that you’ve carried out which you can use to re-do your work when you need to. It also gives you a way to communicate unambiguously what you’ve done, so that others can inspect or apply your process to new data.
-* Many bioinformatic tasks require large amounts of computing power and can’t realistically be run on your own machine. These tasks are best performed using remote computers or cloud computing, which can only be accessed through a shell.
+* Many SC tasks require large amounts of computing power and can’t realistically be run on your own machine. These tasks are best performed using remote computers or cloud computing, which can only be accessed through a shell.
 
 ## Different Types of Shells 
 
@@ -72,7 +72,7 @@ Being able to interact with the kernel makes shells a powerful tool. Without the
 
 Let’s take a look at some of  the major shells that are available for the Linux environment
 
-!!! info "Types of Shells"
+!!! linuxpenguin "Types of Shells"
 
     === "Bourne Shell (sh)"
 
@@ -117,4 +117,4 @@ The Bash command syntax is a superset of the Bourne shell command syntax. Bash s
 
 - - - 
 
-<p align="center"><b><a class="btn" href="https://genomicsaotearoa.github.io/shell-for-bioinformatics/" style="background: var(--bs-dark);font-weight:bold">Back to homepage</a></b></p>
+<p align="center"><b><a class="btn" href="https://genomicsaotearoa.github.io/IndigiDataAotearoa-IntroToShell/" style="background: var(--bs-dark);font-weight:bold">Back to homepage</a></b></p>
