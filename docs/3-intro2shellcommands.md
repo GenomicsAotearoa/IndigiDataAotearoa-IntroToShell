@@ -44,7 +44,18 @@
 ## Doesn't require a full "view", just want to count the number of lines ?
 
 !!! terminal 
-    - 
+    - `wc` (short for word count) is a command line tool in Unix/Linux operating systems, which is used to find out the number of newline count, word count, byte and character count in the files specified
+
+    ```bash
+    wc gen360_1.tsv
+    ```
+    ??? success "output"
+    ```bash
+     1500  3000 25504 gen360_1.tsv
+     ```
+    - `1500` : Number of lines 
+    - `3000` : Number of Words
+    - `25504` : Number of bytes
 
 
 ## Redirection and extraction¶
@@ -63,5 +74,6 @@
     ```bash
     grep EUR gen360_1.tsv > eur.txt
     ```
+
     - In other words, `>` operates as a `Save` command
 
