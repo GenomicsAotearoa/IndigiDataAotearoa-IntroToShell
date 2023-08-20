@@ -143,8 +143,17 @@ Several commands are frequently used to create, inspect, rename, and delete file
 
     - create a copy of `gen360_2.tsv` file and name it `gen360_2_backup.tsv
     
-    ```
+    ```bash
     cp gen360_2.tsv gen360_2_backup.tsv
     ```
     
-    - 
+    - "move" `gen360_2.tsv` file to `backup/` directory  with `mv` command 
+
+    ```bash
+    mv gen360_2.tsv backup/
+    ```
+    - Check the content of `backup/` directory with `ls` 
+
+    ```bash
+    ls backup/
+    ```
