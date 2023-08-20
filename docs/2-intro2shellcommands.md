@@ -80,7 +80,7 @@ Several commands are frequently used to create, inspect, rename, and delete file
 
     Typing out file or directory names can waste a lot of time and it’s easy to make typing mistakes. Instead we can use tab complete as a shortcut. When you start typing out the name of a directory or file, then hit the <KBD>Tab</KBD> key, the shell will try to fill in the rest of the directory or file name.
 
-    !!! terminal-2 "Return to your home directory:"
+    !!! terminal-2 "Return to your home directory and navigate back to `sample-data` with the help of <KBD>Tab</KBD>:"
 
         ```bash
         cd
@@ -93,5 +93,14 @@ Several commands are frequently used to create, inspect, rename, and delete file
         ```bash
         cd sam<tab>
         ```
-        
+
         - The shell will fill in the rest of the directory name for `sample-data`
+        - Using <KBD>Tab</KBD> complete can be very helpful. However, it will only autocomplete a file or directory name if you’ve typed enough characters to provide a unique identifier for the file or directory you are trying to access.
+
+        - For example, if we now try to list the files which names start with `gen` by using tab complete:
+
+        ```bash
+        ls gen<tab>
+        ```
+
+        - The shell auto-completes your command to `gen360_`, because all file names in the directory begin with this prefix. When you hit Tab again, the shell will list the possible choices.
