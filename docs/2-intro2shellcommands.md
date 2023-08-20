@@ -34,7 +34,7 @@ Several commands are frequently used to create, inspect, rename, and delete file
     ??? success "output - may vary a bit from one computer to another. Check whether the output contains `sample-data`"
 
         ```bash
-        sample-date ...
+        sample-data ...
         ```
     <br>
 
@@ -42,3 +42,10 @@ Several commands are frequently used to create, inspect, rename, and delete file
 
     * Anything with a “`/`” after it is a directory. Things with a “`*`” after them are programs. If there are **no** decorations, it’s a file.
         
+    ```bash
+    ls -l
+    ```
+    ??? success "output"
+        ```bash
+        sample-data/  .....
+        ``` 
