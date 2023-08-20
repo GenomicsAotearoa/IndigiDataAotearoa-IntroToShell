@@ -50,5 +50,5 @@ Several commands are frequently used to create, inspect, rename, and delete file
         sample-data/  .....
         ``` 
 !!! square-pen "All commands have a lots of "options" similar to `-F` in `ls`"
-    - Retrieving the list of  "options" for a command can be done with `command --help`  ( For an example `ls --help`).  However, some command don't implement `--help` and even the ones with it might not show the full set of options. 
+    - Retrieving the list of  "options" for a command can be done with `command --help`  ( For an example `ls --help`).  However, some command don't implement `--help` and even the ones with it might not show the full set of options. Solution for this to use `man` command ( or the modern day solution is to search online 😊)
     - `man` (short for manual) displays detailed documentation (also referred as man page or man file) for bash commands. It is a powerful resource to explore bash commands, understand their usage and flags. Some manual files are very long. You can scroll through the file using your keyboard’s down arrow or use the <KBD>Space</KBD> key to go forward one page and the <KBD>b</KBD> key to go backwards one page. When you are done reading, hit <KBD>q</KBD> to quit.
