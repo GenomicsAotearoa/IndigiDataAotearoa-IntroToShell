@@ -1,1 +1,1 @@
-# IndigiDataAotearoa-IntroToShell
+https://genomicsaotearoa.github.io/IndigiDataAotearoa-IntroToShell/
