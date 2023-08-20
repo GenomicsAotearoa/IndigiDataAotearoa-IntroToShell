@@ -49,3 +49,6 @@ Several commands are frequently used to create, inspect, rename, and delete file
         ```bash
         sample-data/  .....
         ``` 
+!!! square-pen "All commands have a lots of "options" similar to `-F` in `ls`"
+
+    `man` (short for manual) displays detailed documentation (also referred as man page or man file) for bash commands. It is a powerful resource to explore bash commands, understand their usage and flags. Some manual files are very long. You can scroll through the file using your keyboard’s down arrow or use the <KBD>Space</KBD> key to go forward one page and the <KBD>b</KBD> key to go backwards one page. When you are done reading, hit <KBD>q</KBD> to quit.
