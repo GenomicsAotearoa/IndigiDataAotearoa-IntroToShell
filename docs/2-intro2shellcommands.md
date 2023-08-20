@@ -104,3 +104,39 @@ Several commands are frequently used to create, inspect, rename, and delete file
         ```
 
         - The shell auto-completes your command to `gen360_`, because all file names in the directory begin with this prefix. When you hit Tab again, the shell will list the possible choices.
+
+!!! terminal "code"
+
+    So far, we have navigated to `sample-data` directory from `/home` with `cd` command and return to `/home` via the same method. What if we want to take a look at the content of `/home` directory without navigating back to it 
+
+    - Confirming the current working directory is `/home/USER/sample-data`
+
+    ```bash
+    pwd
+    ```
+
+    - use `ls ..` command where `..` represents "one step up"
+
+    ```
+    ls ..
+    ```
+## Copying, renaming, removing files and creating directories
+
+!!! terminal 
+
+    - Confirm the current working directory is `/home/USER/sample-data`
+
+    - Let's create a sub-directory within the `..sample-data` directory and name it `backup`. This can be done with the `mkdir` command
+
+    ```bash
+    mkdir backup
+    ```
+    - List the content of the current directory with `ls -F` to make sure the directory was created 
+    
+    ```bash
+    ls -F
+    ```
+    ??? success "output"
+        ```bash
+        backup/  gen360_1.tsv  gen360_2.tsv
+        ```
