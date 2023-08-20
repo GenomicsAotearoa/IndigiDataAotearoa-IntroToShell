@@ -1,6 +1,6 @@
 # 3. Introduction to shell Commands (2)
 
-## Examining file contents¶
+## Examining file content¶
 
 
 !!! terminal 
@@ -18,7 +18,36 @@
     ```bash
     less gen360_1.tsv
     ```
-    
+
     - Use <KBD>Up</KBD> and <KBD>Down</KBD> arrow keys to navigate in `less` output
 
     <center>![image](./images/ex1_less_shortcuts.jpg){width="400"}</center>
+
+    - What if we want to take a look at the "beginning" (`head`) or just the "end"(`tail`) of the file
+
+    ```bash
+    head gen360_1.tsv
+    ```
+    ```bash
+    tail gen360_1.tsv
+    ```
+    
+    - `head` and `tail`command will print top and bottom **10** lines, respectively. 
+    - What If we want to take a look at top 15 lines ? . Both `head` and `tail` commands have a `-n` (number of lines) which allows us to over-ride the default
+
+    ```bash
+    head -n 15 gen360_1.tsv
+    ```
+    ```bash
+    tail -n 15 gen360_1.tsv
+    ```
+### Redirection and extraction¶
+
+!!! terminal 
+
+    - Although using `cat` and `less` commands will allow us to view the content of the whole file, most of the time we are in search of particular characters (strings) of interest, rather than the full content of the file. One of the most commonly used command-line utilities to search for strings is `grep`. Let's use this command to search for the string **EUR**  in `gen360_1.tsv` file.
+    
+    ```bash
+    grep EUR gen360_1.tsv
+    ```
+
