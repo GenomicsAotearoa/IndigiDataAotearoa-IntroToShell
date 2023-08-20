@@ -41,7 +41,13 @@
     ```bash
     tail -n 15 gen360_1.tsv
     ```
-### Redirection and extraction¶
+## Doesn't require a full "view", just want to count the number of lines ?
+
+!!! terminal 
+    - 
+
+
+## Redirection and extraction¶
 
 !!! terminal 
 
@@ -57,3 +63,5 @@
     ```bash
     grep EUR gen360_1.tsv > eur.txt
     ```
+    - In other words, `>` operates as a `Save` command
+
