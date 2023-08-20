@@ -11,9 +11,9 @@
 
 !!! table "Episodes"
 
-    [1. UNIX, Linux & UNIX Shell](../docs/1-intro2shell.md){ .md-button .md-button--primary } 
+    [1. UNIX, Linux & UNIX Shell](./1-intro2shell.md){ .md-button .md-button--primary } 
 
-    [2. Introduction to Shell Commands](../docs/2-intro2shellcommands.md){ .md-button .md-button--primary } 
+    [2. Access the Shell and Introduction to Shell Commands](./2-intro2shellcommands.md){ .md-button .md-button--primary } 
 
 <br>
 
