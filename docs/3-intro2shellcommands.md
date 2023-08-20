@@ -50,13 +50,15 @@
     wc gen360_1.tsv
     ```
     ??? success "output"
-    ```bash
-     1500  3000 25504 gen360_1.tsv
-     ```
-    - `1500` : Number of lines 
-    - `3000` : Number of Words
-    - `25504` : Number of bytes
+        ```bash
+        1500  3000 25504 gen360_1.tsv
+        ```
 
+        - `1500` : Number of lines 
+        - `3000` : Number of Words
+        - `25504` : Number of bytes
+
+    ??? clipboard-question "Run `wc` command with `-l` , `-w` and `-m`  options against the `gen360_1.tsv` file and review the outputs ?"
 
 ## Redirection and extraction¶
 
