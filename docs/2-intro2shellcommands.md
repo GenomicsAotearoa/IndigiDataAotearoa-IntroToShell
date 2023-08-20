@@ -150,10 +150,19 @@ Several commands are frequently used to create, inspect, rename, and delete file
     - "move" `gen360_2.tsv` file to `backup/` directory  with `mv` command 
 
     ```bash
-    mv gen360_2.tsv backup/
+    mv gen360_2_backup.tsv backup/
     ```
+
     - Check the content of `backup/` directory with `ls` 
 
     ```bash
     ls backup/
     ```
+
+    - Delete the file in backup directory 
+
+    ```bash
+    rm backup/gen360_2_backup.tsv
+    ```
+
+    !!! clipboard-question "Check whether you can delete the `backup/` directory with `rm` command"
