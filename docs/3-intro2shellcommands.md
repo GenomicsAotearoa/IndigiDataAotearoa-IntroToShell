@@ -52,4 +52,8 @@
     ```
     
     - We can think of `grep` as a "extremely" powerful "search" command
-    - Running `grep EUR gen360_1csv` printed the output to terminal which is not reliable during when we have to revise or re-use. In order for "string" of interest to be used for other operations, this has to be "redirected" (captured and written into a file). The command for redirecting output to a file is >. Redirecting the string of bad reads that was searched using the grep command to a file named bad_reads.txt can be done with
+    - Running `grep EUR gen360_1csv` printed the output to terminal which is not reliable during when we have to revise or re-use. In order for "string" of interest to be used for other operations, this has to be "redirected" (captured and written into a file). The command for redirecting output to a file is `>`. Redirecting the string of `EUR` that was searched using the grep command to a file `eur.txt` can be done with
+
+    ```bash
+    grep EUR gen360_1.tsv > eur.txt
+    ```
