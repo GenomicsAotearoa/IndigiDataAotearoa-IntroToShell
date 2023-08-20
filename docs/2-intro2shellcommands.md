@@ -64,6 +64,15 @@ Several commands are frequently used to create, inspect, rename, and delete file
     ```bash
     pwd
     ```
+    ??? success "output"
+        ```bash
+        /home/USER/sample-data
+        ```
+
     ```bash
     ls 
     ```
+    ??? success "output"
+        ```
+        gen360_1.tsv  gen360_2.tsv
+        ```
