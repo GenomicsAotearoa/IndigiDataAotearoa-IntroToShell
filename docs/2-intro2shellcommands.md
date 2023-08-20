@@ -1,4 +1,4 @@
-# 2. Access the shell and Introduction to shell Commands 
+# 2. Access the shell and Introduction to shell Commands (1)
 
 ## How to access the shell 
 
@@ -140,3 +140,11 @@ Several commands are frequently used to create, inspect, rename, and delete file
         ```bash
         backup/  gen360_1.tsv  gen360_2.tsv
         ```
+
+    - create a copy of `gen360_2.tsv` file and name it `gen360_2_backup.tsv
+    
+    ```
+    cp gen360_2.tsv gen360_2_backup.tsv
+    ```
+    
+    - 
