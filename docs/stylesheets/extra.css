@@ -1016,12 +1016,12 @@
 }
 .md-typeset .square-pen > .admonition-title,
 .md-typeset .square-pen > summary {
-  color:rgb(250, 250, 250);
-  background-color: rgb(177, 122, 4);
+  color:rgb(10, 9, 9);
+  background-color: rgba(238, 144, 21, 0.658);
 }
 .md-typeset .square-pen > .admonition-title::before,
 .md-typeset .square-pen > summary::before {
-  background-color: rgb(216, 233, 118);
+  background-color: rgb(30, 175, 11);
   -webkit-mask-image: var(--md-admonition-icon--square-pen);
           mask-image: var(--md-admonition-icon--square-pen);
 }
