@@ -18,3 +18,7 @@
     ```bash
     less gen360_1.tsv
     ```
+    
+    - Use <KBD>Up</KBD> and <KBD>Down</KBD> arrow keys to navigate in `less` output
+
+    <center>![image](./images/ex1_less_shortcuts.jpg){width="400"}</center>
