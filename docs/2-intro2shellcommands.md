@@ -76,3 +76,22 @@ Several commands are frequently used to create, inspect, rename, and delete file
         ```
         gen360_1.tsv  gen360_2.tsv
         ```
+!!! feather "Shortcut - Tab Completion"
+
+    Typing out file or directory names can waste a lot of time and it’s easy to make typing mistakes. Instead we can use tab complete as a shortcut. When you start typing out the name of a directory or file, then hit the <KBD>Tab</KBD> key, the shell will try to fill in the rest of the directory or file name.
+
+    !!! terminal-2 "Return to your home directory:"
+
+        ```bash
+        cd
+        ```
+
+        - `cd` command without a follow up argument will revert the working directory to `/home`directory. Same can be done with `cd ~`
+        
+        - Now enter
+        
+        ```bash
+        cd sam<tab>
+        ```
+        
+        - The shell will fill in the rest of the directory name for `sample-data`
