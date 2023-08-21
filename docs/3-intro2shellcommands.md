@@ -79,3 +79,49 @@
 
     - In other words, `>` operates as a `Save` command
 
+## Loops
+
+Loops are a common concept in most programming languages which allow us to execute commands repeatedly with ease. Using loops also reduces the amount of typing (and typing mistakes). Loops are helpful when performing operations on groups 
+
+Therefore three basic loop constructs in `bash` scripting, `for` , `while` and `until`
+
+
+!!! loop "Let's take a quick look at `for` loop"
+
+    - `sample-data` directory has two **.tsv** files
+    - Let's say we want to take a look at the top four lines of both files, 
+        - We can use `head` command with `-n 4` option and execute it to two files separately as below
+
+    ```bash
+    head -n 4  gen360_1.tsv
+    ```
+    ```bash
+    head -n 4 gen360_2.tsv
+    ```
+
+    - Not so much of any issue where it's one or two files but not very convenient when we have to deal with tens or hundreds or thousands. We can use a `for` loop to execute this recursive task by using a "common" factor in filename ( or other attributes) .i.e. 
+        - Identify and isolate the files by using a common factor. In this instance, we will use `.tsv` file extension
+        - Then assign the values ( filenames) of those files to what is known as a control variable 
+        - apply the command to control variable which is holding the values ( In this instance, file names)
+    - Constructing the `for` loop
+        - Always starts with `for`  (When the shell sees the keyword `for`, it knows to repeat a command (or group of commands) once for each item in a list)
+        - control varialble holding the filenames will be `filename` ( this can be anything we want. )
+
+    ```bash
+    for filename in *.tsv
+    do
+        head -n 4 ${filename}
+    done
+    ```
+    ??? circle-check "output"
+        ```bash
+        SubjectID	Population
+        Subject_0001	AFR
+        Subject_0002	EAS
+        Subject_0003	EUR
+        SubjectID	Population
+        Subject_1656	EUR
+        Subject_1657	SAS
+        Subject_1658	SAS
+        ```
+
