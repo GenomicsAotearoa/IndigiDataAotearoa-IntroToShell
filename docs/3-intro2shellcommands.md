@@ -88,7 +88,7 @@ Therefore three basic loop constructs in `bash` scripting, `for` , `while` and `
 
 !!! loop "Let's take a quick look at `for` loop"
 
-    - `sample-data` directory has two **.tsv** files
+    - `shell-data` directory has two **.tsv** files
     - Let's say we want to take a look at the top four lines of both files, 
         - We can use `head` command with `-n 4` option and execute it to two files separately as below
 
