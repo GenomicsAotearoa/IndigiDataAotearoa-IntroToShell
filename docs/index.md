@@ -1,7 +1,7 @@
 <p align="center">
-	<img src="./images/logo_reannz.svg" alt="drawing" width="200"/>
+	<img src="./images/REANNZ_logo_FA.png" alt="drawing" width="200"/>
 </p>
-
+- - -
 <h1 align="center">Introduction to Shell</h1>
 
 
@@ -30,37 +30,3 @@
 
 !!! info ""
 
-!!! screwdriver-wrench "Setup"
-
-    - If possible, we do recommend using the **Remote** option over **Local**  ( Especially for *Windows* hosts). 
-
-    ### Remote
-    
-    ??? jupyter "Log into NeSI Mahuika Jupyter Service"
-    
-        1. Follow [https://jupyter.nesi.org.nz/hub/login](https://jupyter.nesi.org.nz/hub/login)
-        2. <p>Enter NeSI username, HPC password and 6 digit second factor token<br>![image](./images/jupyter_login_labels_updated.png)</p>
-        3. <p>Choose server options as below
-        <br>>>make sure to choose the correct project code `nesi02659`, number of CPUs `CPUs=2`, memory `4 GB` prior to pressing ![images](./images/start_button.png){width="40"}  button.
-    
-        <br>![images](./images/jupyter_server2022.png)
-    
-    ### Local 
-    
-    
-    ??? circle-info "Local host setup - Windows, MacOS & Linux"
-    
-        === "Windows Hosts"
-    
-            * Install, 
-              - MobaXterm Home (*Portable* or *Installer* edition) from [https://mobaxterm.mobatek.net/download-home-edition.html](https://mobaxterm.mobatek.net/download-home-edition.html)
-                  * Portable edition does not require administrative privileges 
-    
-        === "MacOS"
-    
-              * Native terminal client is sufficient.
-    
-        === "Linux"
-    
-              * Native terminal client is sufficient.
-    
