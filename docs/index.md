@@ -1,11 +1,8 @@
-<center>
-![image](./images/nesiGAworkshop_logos.png){width="300"}
-</center>
-<center>
-# **Introduction to Shell**
-</center>
+<p align="center">
+	<img src="./images/logo_reannz.svg" alt="drawing" width="150"/>
+</p>
 
-
+<h1 align="center">Introduction to Shell</h1>
 
 
 
