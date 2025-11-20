@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="./images/logo_reannz.svg" alt="drawing" width="150"/>
+	<img src="./images/logo_reannz.svg" alt="drawing" width="200"/>
 </p>
 
 <h1 align="center">Introduction to Shell</h1>
@@ -18,7 +18,7 @@
 
 !!! key "License" 
 
-    Genomics Aotearoa / New Zealand eScience Infrastructure "Intermediate Shell for Bioinformatics" is licensed under the **GNU General Public License v3.0, 29 June 2007** . ([Follow this link for more information](https://github.com/GenomicsAotearoa/shell-for-bioinformatics/blob/main/LICENSE))
+    Genomics Aotearoa / REANNZ "Intermediate Shell for Bioinformatics" is licensed under the **GNU General Public License v3.0, 29 June 2007** . ([Follow this link for more information](https://github.com/GenomicsAotearoa/shell-for-bioinformatics/blob/main/LICENSE))
     
 !!! info ""
 
